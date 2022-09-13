@@ -16,7 +16,6 @@ const Detail = () => {
   useEffect(() => {
     getMovie();
   }, [getMovie]);
-  console.log(movie);
   return (
     <div>
       {loading ? (
